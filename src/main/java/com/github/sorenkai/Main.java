@@ -22,7 +22,7 @@ import java.util.Map;
 public class Main extends ListenerAdapter {
     public static void main(String[] args) throws Exception {
         new JDABuilder(AccountType.BOT)
-                .setToken("NjY2Mzg3MzkwOTc3NTQwMTEz.Xhzb9w.oHCkPTN-tfzHtPNAhE0Z6CNzswI")
+                .setToken(nice try)
                 .addEventListeners(new Main())
                 .build();
     }
